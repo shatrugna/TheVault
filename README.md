@@ -102,7 +102,7 @@ dataset = load_dataset("Fsoft-AIC/the-vault-function", split_set=["train"])
 dataset = load_dataset("Fsoft-AIC/the-vault-function", split_set=["train/small"])
 
 # specific language (e.g. Python) 
-dataset = load_dataset("Fsoft-AIC/the-vault-function", split_set=["train"], languages=['Python'])
+dataset = load_dataset("Fsoft-AIC/the-vault-function", split_set=["train"], languages=['python'])
 
 # dataset streaming
 data = load_dataset("Fsoft-AIC/the-vault-function", split_set= ["train"], streaming= True)
